@@ -12,51 +12,9 @@ body {
         background-color: $lightGrayishBlue;
         margin: 72px 24px;
         border-radius: 15px;
-        .card-head {
-          img {
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            width: 100%;
-            height: auto;
-          }
-        }
-        .card-body {
-          margin: 43px 45px 21px 34px;
-          h2 {
-            margin-bottom: 23px;
-            font-size: 15px;
-          }
-          p {
-            font-size: 12.8px;
-          }
-        }
-        .card-footer {
-          margin-left: 32px;
-          margin-right: 32px;
-          margin-bottom: 37px;
-          padding-bottom: 21px;
-          display: flex;
-          img {
-            width: 40px;
-            border-radius: 50%;
-          }
-          .info {
-            margin-left: 10px;
-            margin-right: 60px;
-          }
-          .share {
-            background-color: $grayishBlue;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 35px;
-            height: 35px;
-            .img {
-              width: 20px;
-            }
-          }
-        }
+        @import "./partials/card/cardHead";
+        @import "./partials/card/cardBody";
+        @import "./partials/card/cardFooter";
       }
     }
   }
