@@ -1,0 +1,24 @@
+$fontFamily: "Manrope", sans-serif;
+$fontOpticalSizing: auto;
+$fontWeight: 500;
+$fontWeightBold: 800;
+$fontStyle: normal;
+$fontSize: 13px;
+// DEFINIZIONE DELLE VARIABILI PER IL TIPO DI CARATTERE E LO STILE DEL FONT
+
+.manrope-medium,
+.manrope-bold {
+  font-family: $fontFamily;
+  font-optical-sizing: $fontOpticalSizing;
+  font-style: $fontStyle;
+}
+// CLASSE PER IL FONT MANROPE DI PESO MEDIO
+
+.manrope-medium {
+  font-weight: $fontWeight;
+}
+
+.manrope-bold {
+  font-weight: $fontWeightBold;
+}
+// CLASSE PER IL FONT MANROPE DI PESO BOLD

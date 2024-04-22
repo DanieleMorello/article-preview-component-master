@@ -72,10 +72,10 @@ body main .container .card .card-footer .share {
 body main .container .card .card-footer .share .img {
   width: 20px;
 }
-body .attribution {
+body footer .attribution {
   font-size: 11px;
   text-align: center;
 }
-body .attribution a {
+body footer .attribution a {
   color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */

@@ -1,36 +1,6 @@
-@import "./partials/colors-variables";
-
-$fontFamily: "Manrope", sans-serif;
-$fontOpticalSizing: auto;
-$fontWeight: 500;
-$fontWeightBold: 800;
-$fontStyle: normal;
-$fontSize: 13px;
-// DEFINIZIONE DELLE VARIABILI PER IL TIPO DI CARATTERE E LO STILE DEL FONT
-
-.manrope-medium,
-.manrope-bold {
-  font-family: $fontFamily;
-  font-optical-sizing: $fontOpticalSizing;
-  font-style: $fontStyle;
-}
-// CLASSE PER IL FONT MANROPE DI PESO MEDIO
-
-.manrope-medium {
-  font-weight: $fontWeight;
-}
-
-.manrope-bold {
-  font-weight: $fontWeightBold;
-}
-// CLASSE PER IL FONT MANROPE DI PESO BOLD
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-// RESET GLOBALE PER MARGINI, PADDING E BOX-SIZING
+@import "./partials/colorsVariables";
+@import "./partials/fonts";
+@import "./partials/reset";
 
 body {
   font-family: $fontFamily;
@@ -90,12 +60,5 @@ body {
       }
     }
   }
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  @import "./partials/footer";
 }
