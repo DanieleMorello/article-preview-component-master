@@ -1,0 +1,81 @@
+.manrope-medium,
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.manrope-medium {
+  font-weight: 500;
+}
+
+.manrope-bold {
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  background-color: hsl(212, 23%, 69%);
+}
+body main .container .card {
+  background-color: hsl(210, 46%, 95%);
+  margin: 72px 24px;
+  border-radius: 15px;
+}
+body main .container .card .card-head img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+body main .container .card .card-body {
+  margin: 43px 45px 21px 34px;
+}
+body main .container .card .card-body h2 {
+  margin-bottom: 23px;
+  font-size: 15px;
+}
+body main .container .card .card-body p {
+  font-size: 12.8px;
+}
+body main .container .card .card-footer {
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 37px;
+  padding-bottom: 21px;
+  display: flex;
+}
+body main .container .card .card-footer img {
+  width: 40px;
+  border-radius: 50%;
+}
+body main .container .card .card-footer .info {
+  margin-left: 10px;
+  margin-right: 60px;
+}
+body main .container .card .card-footer .share {
+  background-color: hsl(212, 23%, 69%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+body main .container .card .card-footer .share .img {
+  width: 20px;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */

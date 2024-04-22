@@ -1,0 +1,105 @@
+$veryDarkGrayishBlue: hsl(217, 19%, 35%);
+$desaturatedDarkBlue: hsl(214, 17%, 51%);
+$grayishBlue: hsl(212, 23%, 69%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+// DEFINIZIONE DELLE VARIABILI PER I COLORI
+
+$fontFamily: "Manrope", sans-serif;
+$fontOpticalSizing: auto;
+$fontWeight: 500;
+$fontWeightBold: 800;
+$fontStyle: normal;
+$fontSize: 13px;
+// DEFINIZIONE DELLE VARIABILI PER IL TIPO DI CARATTERE E LO STILE DEL FONT
+
+.manrope-medium,
+.manrope-bold {
+  font-family: $fontFamily;
+  font-optical-sizing: $fontOpticalSizing;
+  font-style: $fontStyle;
+}
+// CLASSE PER IL FONT MANROPE DI PESO MEDIO
+
+.manrope-medium {
+  font-weight: $fontWeight;
+}
+
+.manrope-bold {
+  font-weight: $fontWeightBold;
+}
+// CLASSE PER IL FONT MANROPE DI PESO BOLD
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// RESET GLOBALE PER MARGINI, PADDING E BOX-SIZING
+
+body {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  background-color: $grayishBlue;
+  main {
+    .container {
+      .card {
+        background-color: $lightGrayishBlue;
+        margin: 72px 24px;
+        border-radius: 15px;
+        .card-head {
+          img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 100%;
+            height: auto;
+          }
+        }
+        .card-body {
+          margin: 43px 45px 21px 34px;
+          h2 {
+            margin-bottom: 23px;
+            font-size: 15px;
+          }
+          p {
+            font-size: 12.8px;
+          }
+        }
+        .card-footer {
+          margin-left: 32px;
+          margin-right: 32px;
+          margin-bottom: 37px;
+          padding-bottom: 21px;
+          display: flex;
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+          .info {
+            margin-left: 10px;
+            margin-right: 60px;
+          }
+          .share {
+            background-color: $grayishBlue;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            .img {
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
